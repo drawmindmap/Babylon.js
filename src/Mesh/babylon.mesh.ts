@@ -390,7 +390,7 @@
 
             if (this._LODLevels[this._LODLevels.length - 1].distance > distanceToCamera) {
                 if (this.onLODLevelSelection) {
-                    this.onLODLevelSelection(distanceToCamera, this, this._LODLevels[this._LODLevels.length - 1].mesh);
+                    this.onLODLevelSelection(distanceToCamera, this, this);
                 }
                 return this;
             }
